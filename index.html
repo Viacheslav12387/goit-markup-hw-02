@@ -7,23 +7,24 @@
     <title>WebStudio</title>
 
     <!-- Modern Normalize -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
 
-<link 
-rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer"
->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet"
+    >
 
-<!-- Google Fonts -->
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link 
-href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap" rel="stylesheet"
->
-
-<!-- Main CSS -->
-
-<link rel="stylesheet" href="./css/main.css">
-
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -37,8 +38,8 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
             </a>
 
             <!-- Navigation -->
-            <nav>
-                <ul>
+            <nav class="nav">
+                <ul class="nav-list">
                     <li>
                         <a class="nav-link" href="#features">Features</a>
                     </li>
@@ -55,7 +56,7 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
 
             <!-- Contact information -->
             <address>
-                <ul>
+                <ul class="contacts-list">
                     <li>
                         <a class="contacts-link" href="mailto:info@devstudio.com">
                             info@devstudio.com
@@ -63,7 +64,7 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                     </li>
 
                     <li>
-                        <a class="contacts-link" href="tel:+11000111111">
+                        <a class="contacts-link" href="tel:+110001111111">
                             +11 (000) 111-11-11
                         </a>
                     </li>
@@ -177,17 +178,17 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         >
 
                         <h3 class="team-title">
-                            Mark Guerrero</h3>
+                            Mark Guerrero
+                        </h3>
 
                         <p class="team-text">
                             Product Designer
                         </p>
                     </li>
 
-
                     <li class="team-item">
                         <img
-                        class="team-image"
+                            class="team-image"
                             src="./images/our-team/team-2.jpg"
                             alt="Tom Ford"
                             width="264"
@@ -195,17 +196,17 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         >
 
                         <h3 class="team-title">
-                            Tom Ford</h3>
+                            Tom Ford
+                        </h3>
 
                         <p class="team-text">
                             Frontend Developer
                         </p>
                     </li>
 
-
                     <li class="team-item">
                         <img
-                        class="team-image"
+                            class="team-image"
                             src="./images/our-team/team-3.jpg"
                             alt="Camila Garcia"
                             width="264"
@@ -213,17 +214,17 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         >
 
                         <h3 class="team-title">
-                            Camila Garcia</h3>
+                            Camila Garcia
+                        </h3>
 
                         <p class="team-text">
                             Marketing
                         </p>
                     </li>
 
-
                     <li class="team-item">
                         <img
-                        class="team-image"
+                            class="team-image"
                             src="./images/our-team/team-4.jpg"
                             alt="Daniel Wilson"
                             width="264"
@@ -231,7 +232,8 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         >
 
                         <h3 class="team-title">
-                            Daniel Wilson</h3>
+                            Daniel Wilson
+                        </h3>
 
                         <p class="team-text">
                             UI Designer
@@ -256,7 +258,7 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
 
                     <li class="portfolio-item">
                         <img
-                        class="portfolio-image"
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-1.jpg"
                             alt="Banking App"
                             width="360"
@@ -274,9 +276,9 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         </div>
                     </li>
 
-
                     <li class="portfolio-item">
-                        <img class="portfolio-image"
+                        <img
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-2.jpg"
                             alt="Cashless Payment"
                             width="360"
@@ -294,9 +296,9 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         </div>
                     </li>
 
-
                     <li class="portfolio-item">
-                        <img class="portfolio-image"
+                        <img
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-3.jpg"
                             alt="Meditation App"
                             width="360"
@@ -314,9 +316,9 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         </div>
                     </li>
 
-
                     <li class="portfolio-item">
-                        <img class="portfolio-image"
+                        <img
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-4.jpg"
                             alt="Taxi Service"
                             width="360"
@@ -334,9 +336,9 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         </div>
                     </li>
 
-
                     <li class="portfolio-item">
-                        <img class="portfolio-image"
+                        <img
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-5.jpg"
                             alt="Screen Illustrations"
                             width="360"
@@ -354,9 +356,9 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
                         </div>
                     </li>
 
-
                     <li class="portfolio-item">
-                        <img class="portfolio-image"
+                        <img
+                            class="portfolio-image"
                             src="./images/portfolio/portfolio-6.jpg"
                             alt="Online Courses"
                             width="360"
@@ -380,6 +382,7 @@ href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wg
         </section>
 
     </main>
+
 
     <!-- Footer -->
     <footer class="footer" id="footer">
