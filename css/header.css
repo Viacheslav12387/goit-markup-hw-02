@@ -11,11 +11,7 @@
     color: #4d5ae5;
 }
 
-.nav-list {
-}
-
 .nav-link {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -28,21 +24,11 @@
     color: #404bbf;
 }
 
-.nav-link:active {
-    color: #404bbf;
-}
-
-.contacts-list {
-}
-
 .contacts-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .contacts-link:hover,
@@ -54,7 +40,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33333;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
